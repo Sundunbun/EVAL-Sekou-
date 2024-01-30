@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Stat Tracker</h1>
+    </header>
+
+    <main>
+        <h2>Player Stats</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Wins</th>
+                    <th>Kills</th>
+                    <th>Deaths</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Player 1</td>
+                    <td>25</td>
+                    <td>150</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Player 2</td>
+                    <td>18</td>
+                    <td>120</td>
+                    <td>90</td>
+                </tr>
+                <!-- Add more rows for additional players -->
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
